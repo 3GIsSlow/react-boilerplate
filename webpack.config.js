@@ -8,6 +8,9 @@ module.exports = {
         app: './src/app.jsx'
     },
     devtool: isDev ? 'eval-source-map' : 'none',
+    devServer: {
+        contentBase: './build'
+    },
     plugins: [
         new HtmlWebpackPlugin({
             title: 'Alertify',
