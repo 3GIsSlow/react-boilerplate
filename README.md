@@ -1,2 +1,4 @@
 # A Simple React boilerplate
-A common configuration for React applications I build.
+A common configuration that I've been using to build React applications.
+
+
