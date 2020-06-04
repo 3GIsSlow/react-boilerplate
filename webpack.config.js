@@ -13,7 +13,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Alertify',
+            title: 'A Simple React Boilerplate',
             template: './src/template.html',
             minify: true
         })
